@@ -489,7 +489,7 @@ ggplot(data=seoulair, aes(x=date, y=pm10))+geom_line()
 ## Warning: Removed 48 row(s) containing missing values (geom_path).
 ```
 
-![](source/images/Example_10_1_files/figure-html/unnamed-chunk-17-1.png)<!-- -->
+![](/images/Example_10_1_files/figure-html/unnamed-chunk-17-1.png)<!-- -->
 
 
 ### 8) 계절별 미세먼지 등급 비율 그래프 그리기
@@ -526,7 +526,7 @@ ggplot(data = season_grade, aes(x=season, y=pct, fill=pm_grade))+
   ylab("등급별 비율")
 ```
 
-![](source/images/Example_10_1_files/figure-html/unnamed-chunk-18-1.png)<!-- -->
+![](/images/Example_10_1_files/figure-html/unnamed-chunk-18-1.png)<!-- -->
 
 
 ## 연습문제 10 - 1 
@@ -585,7 +585,7 @@ ggplot(data=district_pm2.5, aes(x=reorder(district,m), y=m))+   # 막대그래�
          coord_flip()                                           # 막대그래프를 90도 회전할 때는 coord_flip() 함수를 이용
 ```
 
-![](source/images/Example_10_1_files/figure-html/unnamed-chunk-21-1.png)<!-- -->
+![](/images/Example_10_1_files/figure-html/unnamed-chunk-21-1.png)<!-- -->
 
 ### 4. 연간 초미세먼지 평균이 가장 높은 구와 낮은 구의 평균이 통계적으로 차이가 있는가를 검정합니다.
 
